@@ -32,7 +32,7 @@ function johnLennonFacts (arr) {
   let count = 0
   while (count<arr.length) {
        factsWithExc.push(arr[count] += exc);
-       count+=1
+       count++
   }
   return arr
 }
@@ -53,12 +53,12 @@ function johnLennonFacts (arr) {
 
 //#3 iLoveTheBeatles
 
-// function iLoveTheBeatles (number) {
-//   let arr = [];
-//   do {
-//     arr.push('I love the Beatles!');
-//   } while (number < 15) {
-//     return 'I love the Beatles';
-//     number++;
-//   }
-// }
+function iLoveTheBeatles (number) {
+  let arr = [];
+  do {
+    arr.push('I love the Beatles!');
+    number++;
+  }
+  while (number < 15);
+  return arr
+}
